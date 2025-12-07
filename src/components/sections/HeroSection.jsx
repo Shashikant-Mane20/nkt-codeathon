@@ -41,10 +41,10 @@ export default function HeroSection() {
               <Clock className="w-4 h-4" />
               <span>6 Hours</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full">
+            {/* <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full">
               <Users className="w-4 h-4" />
               <span>20 Participants</span>
-            </div>
+            </div> */}
             <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full">
               <Trophy className="w-4 h-4" />
               <span>10 Problem Statements</span>
@@ -59,7 +59,7 @@ export default function HeroSection() {
                   ?.scrollIntoView({ behavior: "smooth" })
               }
             >
-              Choose Problem & Register 🚀
+              Choose Problem 🚀
             </GradientButton>
             <button
               onClick={() =>

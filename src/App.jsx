@@ -6,8 +6,8 @@ import HeroSection from "./components/sections/HeroSection";
 import StatsStrip from "./components/sections/StatsStrip";
 import AboutSection from "./components/sections/AboutSection";
 import ProblemSection from "./components/sections/ProblemSection";
-import TimelineSection from "./components/sections/TimelineSection";
-import PrizesSection from "./components/sections/PrizesSection";
+// import TimelineSection from "./components/sections/TimelineSection";
+// import PrizesSection from "./components/sections/PrizesSection";
 import RulesSection from "./components/sections/RulesSection";
 import FAQSection from "./components/sections/FAQSection";
 import SponsorsSection from "./components/sections/SponsorsSection";
@@ -117,8 +117,8 @@ function App() {
                   problems={problems}
                   onOpenProblem={handleOpenProblem}
                 />
-                <TimelineSection />
-                <PrizesSection />
+                {/* <TimelineSection /> */}
+                {/* <PrizesSection /> */}
                 <RulesSection />
                 <FAQSection />
                 <SponsorsSection />
