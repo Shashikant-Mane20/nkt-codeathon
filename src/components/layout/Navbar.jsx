@@ -231,7 +231,7 @@ export default function Navbar() {
               <p className="font-bold tracking-wide text-white">
                 NKT Tech Fest
               </p>
-              <p className="text-xs text-white/60 -mt-1">Codeathon 2025</p>
+              <p className="text-xs text-white/60 -mt-1">Code-a-thon 2025</p>
             </div>
           </Link>
         </motion.div>
