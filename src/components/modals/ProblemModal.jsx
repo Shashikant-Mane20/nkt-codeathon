@@ -67,9 +67,9 @@ export default function ProblemModal({ open, problem, onClose }) {
           <table className="w-full text-left text-xs md:text-sm">
             <tbody>
               <Row label="Code" value={p.code} />
-              <Row label="Track" value={p.track} />
+              <Row label="Category" value={p.track} />
               <Row label="Level" value={p.level} />
-              <Row label="Tags" value={problem.tags.join(", ")} />
+              {/* <Row label="Tags" value={problem.tags.join(", ")} /> */}
               <Row
                 label="Evaluation Criteria"
                 value={
