@@ -18,7 +18,7 @@ export default function HeroSection() {
             transition={{ duration: 0.7 }}
           >
             NKT Tech Fest
-            <span className="block mt-2">Codeathon 2025</span>
+            <span className="block mt-2">Code-a-thon 2025</span>
           </motion.h1>
 
           <motion.p

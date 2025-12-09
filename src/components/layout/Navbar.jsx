@@ -261,13 +261,13 @@ export default function Navbar() {
             </GradientButton>
           )}
 
-          <NavLink
+          {/* <NavLink
             to={isAdminRoute ? "/" : "/admin"}
             className={navLinkClass}
             onClick={closeMobile}
           >
             {isAdminRoute ? "Back to Site" : "Admin"}
-          </NavLink>
+          </NavLink> */}
 
           {/* Mobile menu button */}
           {!isAdminRoute && (

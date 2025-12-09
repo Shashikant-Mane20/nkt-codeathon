@@ -14,6 +14,7 @@ import SponsorsSection from "./components/sections/SponsorsSection";
 import ProblemModal from "./components/modals/ProblemModal";
 import AdminDashboard from "./components/sections/AdminDashboard";
 
+import festLogo from "../src/assets/techfestlogo.png";
 // Prefer env, but fall back to localhost in dev
 const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL || "https://codeathon-backend.onrender.com";
@@ -95,9 +96,26 @@ function App() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center">
-        <p className="text-white text-xl">Loading...</p>
-      </div>
+      // <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center">
+      //   <p className="text-white text-xl">Loading...</p>
+      //    <img
+      //                 src={festLogo}
+      //                 alt="NKT Tech Fest Logo"
+      //                 className="w-9 h-9 rounded-full object-contain "
+      //               />
+      // </div>
+
+     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex flex-col items-center justify-center gap-4">
+      <img
+        src={festLogo}
+        alt="NKT Tech Fest Logo"
+        className="w-24 h-24 rounded-full object-contain animate-pulse drop-shadow-[0_0_25px_rgba(255,255,255,0.8)]"
+      />
+      <p className="text-white text-xl tracking-wide animate-pulse">
+        Loading...
+      </p>
+    </div>
+
     );
   }
 
@@ -120,7 +138,7 @@ function App() {
                 {/* <TimelineSection /> */}
                 {/* <PrizesSection /> */}
                 <RulesSection />
-                <FAQSection />
+                {/* <FAQSection /> */}
                 <SponsorsSection />
               </>
             }

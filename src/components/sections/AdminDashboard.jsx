@@ -136,7 +136,7 @@ export default function AdminDashboard({ apiBaseUrl, onDataChange }) {
     <div className="max-w-6xl mx-auto px-4 py-10">
       <SectionHeader
         title="Admin Dashboard"
-        subtitle="Add, edit, and delete Codeathon problem statements."
+        subtitle="Add, edit, and delete Code-a-thon problem statements."
       />
 
       <div className="grid md:grid-cols-2 gap-8">

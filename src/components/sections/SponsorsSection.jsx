@@ -1,7 +1,7 @@
 import SectionHeader from "../ui/SectionHeader";
 
 export default function SponsorsSection() {
-  const sponsors = ["NKT Coding Club", "NKT Tech Fest/ NKT College", "Workers"];
+  const sponsors = ["NKT Coding Club", "NKT Tech Fest/ NKT College"];
 
   return (
     <section className="max-w-6xl mx-auto px-4 py-10">
