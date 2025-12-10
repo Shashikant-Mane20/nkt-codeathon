@@ -28,8 +28,7 @@ export default function Footer() {
         <p className="mt-4 text-white/80">
           Made with ❤️ by{" "}
           <a
-            href="https://instagram.com/yash_mane" 
-            target="_blank"
+      href="https://www.instagram.com/_yashhhh_16?igsh=MXVhdDVvam11cWMx"
             rel="noopener noreferrer"
             className="text-purple-300 hover:text-purple-400 underline"
           >
