@@ -36,7 +36,7 @@ export default function Footer() {
           </a>{" "}
           &{" "}
           <a
-            href="https://instagram.com/your_instagram_here"
+            href="https://www.instagram.com/shashikantxmane?igsh=MWdqM3V2bWxnc29hZA=="
             target="_blank"
             rel="noopener noreferrer"
             className="text-purple-300 hover:text-purple-400 underline"
